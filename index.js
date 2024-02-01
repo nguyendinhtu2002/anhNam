@@ -84,7 +84,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t01,
+            t: dataNew[0]?.t01,
             time: new Date(),
           },
         };
@@ -93,7 +93,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t04,
+            t: dataNew[0]?.t04,
             time: new Date(),
           },
         };
@@ -102,7 +102,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t07,
+            t: dataNew[0]?.t07,
             time: new Date(),
           },
         };
@@ -111,7 +111,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t10,
+            t: dataNew[0]?.t10,
             time: new Date(),
           },
         };
@@ -120,7 +120,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t16,
+            t: dataNew[0]?.t16,
             time: new Date(),
           },
         };
@@ -129,7 +129,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t19,
+            t: dataNew[0]?.t19,
             time: new Date(),
           },
         };
@@ -138,7 +138,7 @@ app.get("/api/crawl", async (req, res) => {
         newData = {
           message: "OK",
           data: {
-            t: dataNew[0].t22,
+            t: dataNew[0]?.t22,
             time: new Date(),
           },
         };
